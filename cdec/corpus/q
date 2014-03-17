@@ -1,0 +1,4 @@
+<s> foo bar </s> ||| <s> FOO BAR </s>
+<s> a b c </s> ||| <s> A B x C </s>
+<s> d </s> ||| <s> 0 </s>
+<s> e </s> ||| <s> f </s>

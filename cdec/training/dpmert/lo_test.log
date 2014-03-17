@@ -1,0 +1,53 @@
+Running 5 test cases...
+<x=-inf,b=0,m=-1,p1=0x0,p2=0x0|x=-0,b=0,m=1,p1=0x0,p2=0x0>
+<x=-inf,b=0,m=-1,p1=0x0,p2=0x0|x=-0,b=0,m=1,p1=0x0,p2=0x0> (*) <x=-inf,b=1,m=-1,p1=0x0,p2=0x0|x=1,b=-1,m=1,p1=0x0,p2=0x0> = <x=-inf,b=1,m=-2,p1=0x7ffa305039d0,p2=0x7ffa30503a70|x=-0,b=1,m=0,p1=0x7ffa30503a10,p2=0x7ffa30503a70|x=1,b=-1,m=2,p1=0x7ffa30503a10,p2=0x7ffa30503ad0>
+-3.28 ||| X A a B C c ||| f1=-2.7 f2=-2.2
+-3.46 ||| Z A a B C c ||| f1=-2.9 f2=-2.3
+-4.1 ||| X A a b C c ||| f1=-2 f2=-3.3
+-4.28 ||| Z A a b C c ||| f1=-2.2 f2=-3.4
+<x=-inf,b=-3.46,m=-2.9,p1=0x7ffa30506640,p2=0x7ffa30506320|x=-0.9,b=-3.28,m=-2.7,p1=0x7ffa305064e0,p2=0x7ffa30506320|x=1.17143,b=-4.1,m=-2,p1=0x7ffa305064e0,p2=0x7ffa30506450>
+-0.85 ||| X A a B C c ||| f1=-2.7 f2=-2.2
+-0.85 ||| Z A a B C c ||| f1=-2.9 f2=-2.3
+-2.3 ||| X A a b C c ||| f1=-2 f2=-3.3
+-2.3 ||| Z A a b C c ||| f1=-2.2 f2=-3.4
+seg=0
+Z A a B C c
+seg=1
+X A a B C c
+seg=2
+X A a b C c
+Seeding random number sequence to 3909864323
+Generated 15 total axes to optimize along.
+WordPenalty=1
+LanguageModel=1
+PhraseModel_0=1
+PhraseModel_1=1
+PhraseModel_2=1
+WordPenalty=-0.19649 LanguageModel=0.546461 PhraseModel_0=0.535296 PhraseModel_1=0.0495499 PhraseModel_2=0.611371
+WordPenalty=-0.0197229 LanguageModel=-0.141481 PhraseModel_0=-0.971607 PhraseModel_1=-0.0836935 PhraseModel_2=0.169025
+WordPenalty=-0.652707 LanguageModel=-0.242734 PhraseModel_0=-0.588692 PhraseModel_1=-0.323561 PhraseModel_2=0.252596
+WordPenalty=0.103085 LanguageModel=-0.150725 PhraseModel_0=-0.929644 PhraseModel_1=-0.156015 PhraseModel_2=0.279423
+WordPenalty=0.0933179 LanguageModel=0.24723 PhraseModel_0=-0.606265 PhraseModel_1=0.362621 PhraseModel_2=-0.656595
+WordPenalty=-0.0765834 LanguageModel=0.032315 PhraseModel_0=-0.860494 PhraseModel_1=-0.382293 PhraseModel_2=0.326331
+WordPenalty=0.0417656 LanguageModel=0.246374 PhraseModel_0=0.750271 PhraseModel_1=0.491163 PhraseModel_2=-0.36525
+WordPenalty=-0.0641031 LanguageModel=0.279357 PhraseModel_0=0.500809 PhraseModel_1=0.5848 PhraseModel_2=-0.570131
+WordPenalty=-0.192099 LanguageModel=-0.0760391 PhraseModel_0=-0.780251 PhraseModel_1=0.590208 PhraseModel_2=0.0133358
+WordPenalty=-0.523393 LanguageModel=0.0368246 PhraseModel_0=-0.77564 PhraseModel_1=0.350837 PhraseModel_2=-0.000237368
+Computing Viterbi envelope using inside algorithm...
+axis: WordPenalty=1
+8 29
+7 24
+line optimizer returned: -7.31069 (SCORE=0.487197)
+res: WordPenalty=-3.06069 LanguageModel=-1.1165 PhraseModel_0=-0.96 PhraseModel_1=-0.65 PhraseModel_2=-0.77 PassThrough=-10
+ENVELOPE PROCESSING=89.262
+  LINE OPTIMIZATION=0.256
+australia reopens embassy in manila
+, manila 2 ( australia ) reopened its embassy in the philippines today seven weeks ago , the embassy closed because of so - called clear the threat of terrorist attacks .
+0 ||| without title ||| Glue=1 GlueTop=1 LogRuleCount=1.79176 LabelledFE=4.96981 LabelledEF=3.84303 XEF=1.6458 XFE=2.77259 RulePenalty=2 GenerativeProb=20.6244 LexF2E=3.68261 LexE2F=5.13261 LHSProb=7.88975
+0 ||| entitled without ||| GlueTop=1 LHSProb=7.74706 SingletonRule=1 LexE2F=6.12687 LexF2E=4.37576 GenerativeProb=21.8657 RulePenalty=2 XFE=3.97656 XEF=1.6458 LabelledEF=4.94165 LabelledFE=7.2724 LogRuleCount=0.693147
+0 ||| except title ||| Glue=1 GlueTop=1 LHSProb=8.88975 LexE2F=6.13261 LexF2E=3.68261 GenerativeProb=21.6244 RulePenalty=2 XFE=2.77259 XEF=2.6458 LabelledEF=3.84303 LabelledFE=4.96981 LogRuleCount=2.79176
+0 ||| entitled except ||| GlueTop=1 LHSProb=8.74706 SingletonRule=1 LexE2F=7.12687 LexF2E=4.37576 GenerativeProb=22.8657 RulePenalty=2 XFE=3.97656 XEF=2.6458 LabelledEF=4.94165 LabelledFE=7.2724 LogRuleCount=1.69315
+0 ||| without funny ||| Glue=1 GlueTop=1 LogRuleCount=0.693147 LabelledFE=4.96981 LabelledEF=4.94165 XEF=2.74442 XFE=2.77259 RulePenalty=2 GenerativeProb=21.7062 LexF2E=5.06891 LexE2F=4.69975 LHSProb=7.90652 SingletonRule=1
+0 ||| except funny ||| Glue=1 GlueTop=1 LHSProb=8.90652 LexE2F=5.69975 LexF2E=5.06891 GenerativeProb=22.7062 RulePenalty=2 XFE=2.77259 XEF=3.74442 LabelledEF=4.94165 LabelledFE=4.96981 LogRuleCount=1.69315 SingletonRule=1
+
+*** No errors detected

@@ -1,0 +1,20 @@
+...		Iteration 1:	fx = 1.56328	  xnorm = 0.190539, gnorm = 5.24339, step = 0.0673658
+..		Iteration 2:	fx = 1.37081	  xnorm = 0.312857, gnorm = 7.96925, step = 0.311702
+.		Iteration 3:	fx = 0.931169	  xnorm = 0.490471, gnorm = 4.16795, step = 1
+.		Iteration 4:	fx = 0.712768	  xnorm = 0.641294, gnorm = 4.77525, step = 1
+.		Iteration 5:	fx = 0.498776	  xnorm = 0.89134, gnorm = 9.56532, step = 1
+..		Iteration 6:	fx = 0.244332	  xnorm = 1.1173, gnorm = 3.59537, step = 0.159694
+.		Iteration 7:	fx = 0.22553	  xnorm = 1.19709, gnorm = 6.71007, step = 1
+.		Iteration 8:	fx = 0.152889	  xnorm = 1.29608, gnorm = 4.29872, step = 1
+.		Iteration 9:	fx = 0.0849474	  xnorm = 1.45017, gnorm = 2.70882, step = 1
+.		Iteration 10:	fx = 0.0431095	  xnorm = 1.5992, gnorm = 2.08839, step = 1
+.		Iteration 11:	fx = 0.018585	  xnorm = 1.73308, gnorm = 1.64902, step = 1
+..		Iteration 12:	fx = 0.0082832	  xnorm = 1.82332, gnorm = 1.31939, step = 0.14065
+.		Iteration 13:	fx = 0.00444138	  xnorm = 1.89777, gnorm = 1.95953, step = 1
+.		Iteration 14:	fx = 0.000823594	  xnorm = 1.94473, gnorm = 0.504778, step = 1
+.		Iteration 15:	fx = 9.83059e-05	  xnorm = 1.98383, gnorm = 0.279713, step = 1
+.		Iteration 16:	fx = 5.19543e-06	  xnorm = 1.99556, gnorm = 0.0409656, step = 1
+.		Iteration 17:	fx = 7.15265e-07	  xnorm = 2.00118, gnorm = 0.0287681, step = 1
+.		Iteration 18:	fx = 3.15911e-10	  xnorm = 1.99996, gnorm = 1.7109e-05, step = 1
+L-BFGS optimization terminated with status code = 0
+  fx = 3.15911e-10

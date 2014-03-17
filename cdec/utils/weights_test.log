@@ -1,0 +1,12 @@
+Running 1 test case...
+Reading weights from ../utils/test_data/weights
+Loaded 7 feature weights
+WordPenalty -0.38702900000000001
+LanguageModel 0.253195
+PhraseModel_0 0.142926
+PhraseModel_1 0.465119
+PhraseModel_2 0.079503000000000004
+CNPosteriorProbability 0.092590000000000006
+Inf -inf
+
+*** No errors detected

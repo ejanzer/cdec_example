@@ -1,0 +1,3 @@
+phmt.o: phmt.cc ../config.h
+
+../config.h:

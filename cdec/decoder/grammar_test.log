@@ -1,0 +1,37 @@
+Running 2 test cases...
+Reading weights from ../decoder/test_data/weights.gt
+Loaded 4 feature weights
+[X] ||| a b c ||| A B C ||| PhraseModel_0=0.1 PhraseModel_1=0.2 PhraseModel_2=0.3
+Reading weights from ../decoder/test_data/weights.gt
+Loaded 4 feature weights
+  Goal category: [PHRASE]
+    ..
+digraph G {
+  rankdir=LR;
+  nodesep=.05;
+   A_1 [label="[PHRASE] ||| ein ||| a p=-inf F:Phrase_0=1.34995 Phrase_1=0.228479 Phrase_3=0.228479" shape="rect"];
+     A_1 -> 1;
+   A_2 [label="[PHRASE] ||| haus ||| small yellow mouse house p=-inf F:PhraseModel_0=2.46389 PhraseModel_1=0.845098 PhraseModel_2=1.30103 PhraseModel_3=0.278754 PhraseModel_4=1.34341" shape="rect"];
+     A_2 -> 0;
+   A_3 [label="[PHRASE] ||| haus ||| house p=-inf F:Phrase_0=1.18514 Phrase_2=0.0222764 Phrase_4=0.0211893" shape="rect"];
+     A_3 -> 0;
+   A_4 [label="[PHRASE] ||| ein [PHRASE,1] ||| a [1] p=-inf F:PhraseModel_0=2.03792 PhraseModel_1=0.290035 PhraseModel_2=0 PhraseModel_3=0.228479 PhraseModel_4=0" shape="rect"];
+     0 -> A_4;
+     A_4 -> 2;
+   A_5 [label="[PHRASE] ||| ein haus ||| a house p=-inf F:PhraseModel_0=1.76492 PhraseModel_1=0 PhraseModel_2=0.0791813 PhraseModel_3=0.228479 PhraseModel_4=0.0211893" shape="rect"];
+     A_5 -> 2;
+   A_6 [label="[PHRASE] ||| ein haus ||| a small house p=-inf F:PhraseModel_0=2.46389 PhraseModel_1=0.30103 PhraseModel_2=0.778151 PhraseModel_3=0.507233 PhraseModel_4=1.34341" shape="rect"];
+     A_6 -> 2;
+   A_7 [label="[PHRASE] ||| [PHRASE,1] haus ||| [1] house p=-inf F:PhraseModel_0=1.86183 PhraseModel_1=0 PhraseModel_2=0 PhraseModel_3=0 PhraseModel_4=0.0211892" shape="rect"];
+     1 -> A_7;
+     A_7 -> 2;
+   A_8 [label="[Goal] ||| [PHRASE,1] ||| [1] p=-inf F:" shape="rect"];
+     2 -> A_8;
+     A_8 -> 3;
+  0[label="PHRASE n=0"];
+  1[label="PHRASE n=1"];
+  2[label="PHRASE n=2"];
+  3[label="Goal n=3"];
+}
+
+*** No errors detected

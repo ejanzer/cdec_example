@@ -1,0 +1,39 @@
+Running 9 test cases...
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!! This code is using the deprecated DocScorer interface, please fix !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Loading references (4 files)
+Loaded reference translations for 5 sentences.
+BLEU = 34.89, 81.5|50.8|29.5|18.6 (brev=0.898)
+Encoded BLEU score size: 31
+BLEU = 34.89, 81.5|50.8|29.5|18.6 (brev=0.898)
+DETAILS: TER = 60.00,   4|  1|  4|  3 (len=20)
+0.6
+DETAILS: TER = 38.60,   0|  7| 12|  3 (len=57)
+0.385965
+0.441558
+DETAILS: TER = 44.16,   4|  8| 16|  6 (len=77)
+DETAILS: TER = 20.00,   0|  0|  0|  1 (len=5)
+DETAILS: SER= 0 (0/1)
+DETAILS: SER= 1 (1/1)
+DETAILS: SER= 0.5 (1/2)
+DETAILS: Combi = -18.41, BLEU = 23.19, TER = 60.00
+-0.184075
+DETAILS: Combi = -18.41, BLEU = 23.19, TER = 60.00
+AER=66.6667 F=33.3333 P=50 R=25 [1 2 4]
+ENC size: 12
+AER=66.6667 F=33.3333 P=50 R=25 [1 2 4]
+LAMBDA=0.1	0.551082 0.653967	f=0.352291 (bad=0.250233)
+LAMBDA=0.2	0.543451 0.644449	f=0.348201 (bad=0.245749)
+LAMBDA=0.3	0.528742 0.626673	f=0.340542 (bad=0.237165)
+LAMBDA=0.4	0.503049 0.596604	f=0.327459 (bad=0.222368)
+LAMBDA=0.5	0.459257 0.546464	f=0.305253 (bad=0.197607)
+LAMBDA=0.6	0.387112 0.46429	f=0.267832 (bad=0.157869)
+LAMBDA=0.7	0.281813 0.343324	f=0.210398 (bad=0.102171)
+LAMBDA=0.8	0.16707 0.209612	f=0.142525 (bad=0.0458167)
+LAMBDA=0.9	0.0892684 0.113544	f=0.0887571 (bad=0.012649)
+( 0.5 * IBM_BLEU + -0.5 * TER )
+SS: COMB:IBM_BLEU=0.5;TER=-0.5 53 32 18 11 65 63 61 59 65 72 4 8 16 6 77
+-0.0463523
+
+*** No errors detected

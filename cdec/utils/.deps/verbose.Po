@@ -1,0 +1,3 @@
+verbose.o: verbose.cc verbose.h
+
+verbose.h:

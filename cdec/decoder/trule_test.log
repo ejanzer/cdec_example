@@ -1,0 +1,8 @@
+Running 4 test cases...
+ob ich ihn sah .
+[X] ||| gato ||| cat ||| PhraseModel_0=-23.2 Foo=1 Bar=12
+[LHS] ||| term1 [NT,1] term2 [NT2,2] [NT3,3] ||| term1 [1] term2 [2] [3]
+[LHS] ||| term1 [NT,1] term2 [NT2,2] [NT3,3] ||| term1 [1] term2 [2] [3] ||| Feature1=0.23
+TEXT: [X] ||| den [X,1] sah [X,2] . ||| [2] saw the [1] . ||| PhraseModel_0=0.12321 PhraseModel_1=0.23232 PhraseModel_2=0.121
+
+*** No errors detected
